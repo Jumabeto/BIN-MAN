@@ -1,0 +1,34 @@
+~ inicio_tutorial
+
+Sistema: [color=cyan]ERROR DE CONEXIÓN.[/color] Solo se aceptan señales binarias.
+Jugador: ¿Binarias? ¿Qué es eso?
+Guía: ¡Tranquilo! El sistema binario es el lenguaje de las máquinas. 
+Guía: Solo usa dos símbolos: [b]0[/b] y [b]1[/b].
+Guía: Piensa en ellos como interruptores de luz:
+- 0 significa "Apagado" (Falso).
+- 1 significa "Encendido" (Verdadero).
+Jugador: ¿Y cómo escribo números normales como el 5?
+Guía: Mira la primera tabla
+Guía: Usamos posiciones. En decimal (tu lenguaje) vas de 1 en 1, 10 en 10...
+Guía: En binario, cada posición vale el doble que la anterior: [b]1,2,4,8,16...[/b].
+Guía: Aprendamos a traducir números entre el sistema decimal y el sistema binario. No es magia… es lógica basada en potencias de 2..
+Guía: Esta tabla será tu herramienta principal. Cada posición en un número binario representa una potencia de 2.
+Guía: Ve avanzando hacia la segunda tabla.
+Guía: Comencemos convirtiendo binario a decimal. El número es 1011.
+Guia: Cada dígito se multiplica por su potencia correspondiente.
+Guía: Ahora sumamos solo donde hay 1.
+Guía: Por lo tanto, 1011 en binario es igual a 11 en decimal.
+Guia: Ahora ve a la ultima tabla.
+Guía: Ahora haremos el proceso inverso: convertir 13 a binario.
+Guía: Buscamos la potencia de 2 más grande que quepa en 13.
+Guía: 13 menos 8 es 5. Colocamos un 1 en la posición del 8.
+Guía: Ahora buscamos la siguiente potencia que quepa en 5.
+Guía: 5 menos 4 es 1. Colocamos otro 1.
+Guía: El 2 no cabe en 1, así que colocamos un 0.
+Guía: Finalmente, el 1 sí cabe. Colocamos un 1.
+Guía: 13 en decimal es 1101 en binario.
+Guía: Recuerda:
+En binario a decimal, multiplicas y sumas.
+En decimal a binario, restas potencias de 2.
+Guía: Con la tabla de potencias de 2… todo es más simple.
+=> END	

@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://elty0t1gawjn"]
+
+[ext_resource type="Script" uid="uid://bm5k4bn2m2gkq" path="res://Scripts/menu.gd" id="1_1rerr"]
+[ext_resource type="Texture2D" uid="uid://c3h3pgxlfuprd" path="res://Imagenes/12.jpeg" id="2_xhh6f"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u4yt8"]
+bg_color = Color(0, 0, 0, 1)
+corner_detail = 15
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1rerr"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xhh6f"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="Menu" type="Control" unique_id=243126348]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1rerr")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1425888852]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.40866864, 0.27735618, 0.17142189, 1)
+
+[node name="12" type="Sprite2D" parent="." unique_id=1078903060]
+position = Vector2(227, 140)
+scale = Vector2(0.296875, 0.3144531)
+texture = ExtResource("2_xhh6f")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1454565402]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -55.0
+offset_top = -15.5
+offset_right = 55.0
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 11
+
+[node name="Play" type="Button" parent="VBoxContainer" unique_id=1457539576]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_u4yt8")
+text = "JUGAR"
+
+[node name="Options" type="Button" parent="VBoxContainer" unique_id=591681360]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_1rerr")
+text = "OPCIONES"
+
+[node name="Quit" type="Button" parent="VBoxContainer" unique_id=131072842]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_xhh6f")
+text = "SALIR"
+
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Options" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]

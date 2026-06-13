@@ -1,0 +1,4 @@
+basico/exportado/
+*.exe
+.godot/
+.import/

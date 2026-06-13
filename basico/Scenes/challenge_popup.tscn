@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://cd8lej11582u4"]
+
+[ext_resource type="Script" uid="uid://dc3x7xsghtju5" path="res://Scenes/challenge_popup.gd" id="1_bj7ea"]
+
+[node name="ChallengePopup" type="CanvasLayer" unique_id=1312203453]
+process_mode = 3
+script = ExtResource("1_bj7ea")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1648150623]
+offset_left = 99.0
+offset_top = 58.0
+offset_right = 344.0
+offset_bottom = 209.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer" unique_id=1272594768]
+layout_mode = 2
+
+[node name="LabelTitulo" type="Label" parent="PanelContainer/VBoxContainer" unique_id=832729994]
+layout_mode = 2
+text = "DESAFIO CONVIERTE"
+horizontal_alignment = 1
+
+[node name="LabelPregunta" type="Label" parent="PanelContainer/VBoxContainer" unique_id=228038940]
+layout_mode = 2
+text = "BINARIO: 1011->DECIMAL"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PanelContainer/VBoxContainer" unique_id=473965309]
+layout_mode = 2
+
+[node name="EntradaRespuesta" type="LineEdit" parent="PanelContainer/VBoxContainer/HBoxContainer" unique_id=1946969737]
+process_mode = 3
+layout_mode = 2
+alignment = 1
+
+[node name="BotonEnviar" type="Button" parent="PanelContainer/VBoxContainer/HBoxContainer" unique_id=1534850343]
+process_mode = 3
+layout_mode = 2
+text = "ENVIAR
+"
+
+[node name="LabelFeedback" type="Label" parent="PanelContainer/VBoxContainer" unique_id=877582067]
+layout_mode = 2
+text = "Presiona ENTER o ENVIAR"
+
+[connection signal="text_submitted" from="PanelContainer/VBoxContainer/HBoxContainer/EntradaRespuesta" to="." method="_on_entrada_respuesta_text_submitted"]
+[connection signal="pressed" from="PanelContainer/VBoxContainer/HBoxContainer/BotonEnviar" to="." method="_on_boton_enviar_pressed"]
