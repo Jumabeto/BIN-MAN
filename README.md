@@ -1,4 +1,4 @@
-🎮 Binary Quest (Texto con Tipografía Aumentada)
+🎮 El Señor del Bit 
 
 🔴 Problemática
 
