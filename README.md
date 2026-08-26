@@ -19,6 +19,6 @@ La enseñanza del sistema numérico binario en estudiantes de 6.º y 7.º grado 
 <div align="center">
   <h3>📱 Escanea para visitar mi GitHub</h3>
   <a href="https://github.com/Jumabeto/BIN-MAN">
-    <img src="https://quickchart.io/qr?text=https://github.com/TU_USUARIO&size=200" alt="QR GitHub" width="180">
+    <img src="https://quickchart.io/qr?text=https://github.com/Jumabeto/BIN-MAN&size=200" alt="QR GitHub" width="180">
   </a>
 </div>
