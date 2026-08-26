@@ -14,3 +14,11 @@ La enseñanza del sistema numérico binario en estudiantes de 6.º y 7.º grado 
 - Combate contra Enemigos: Cada enemigo cuenta con un escudo o clave numérica. Para vulnerar su defensa y atacarlo, el estudiante debe calcular e ingresar la equivalencia numérica correspondiente.  
 - Acertijos de Entorno: Se activan puertas y plataformas manipulando interruptores de bits (0 y 1).  
 - Progresión Adaptada: Nivel 1 (4 bits: $0$-$15$), Nivel 2 (6 bits: $0$-$63$) y Nivel 3 (8 bits / 1 Byte: $0$-$255$).  
+
+
+<div align="center">
+  <h3>📱 Escanea para visitar mi GitHub</h3>
+  <a href="https://github.com/Jumabeto/BIN-MAN">
+    <img src="https://quickchart.io/qr?text=https://github.com/TU_USUARIO&size=200" alt="QR GitHub" width="180">
+  </a>
+</div>
